@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Pojišťovací apka</title>
+</head>
+<body>
+    <header>
+        <h1>Pojišťovací apka</h1>
+        <nav>
+            <ul>
+                <li class="aktivni"><a href="index.html">Správa pojitěnců</a></li>
+                <li><a href="oNas.html">O nás</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <h2>Přidat pojištěnce</h2>
+
+        <form class="formular">
+            <input type="text" id="jmeno" placeholder="Jméno">
+            <input type="text" id="prijmeni" placeholder="Příjmení"><br>
+            <input type="number" id="vek" placeholder="Rok narození">
+            <input type="number" id="telefon" placeholder="Telefonní číslo"><br>
+            <button id="tlacitko">Uložit</button>
+        </form>
+
+        <h2>Seznam pojištěnců</h2>
+
+        <div id="seznam-pojistencu">
+            
+        </div>
+        
+    </main>
+    <footer>
+        <p>Vytvořil &copy;Martin Pecka 2023</p>
+    </footer>
+    
+    <script src="Seznam.js"></script>
+    <script src="Zaznam.js"></script>
+    <script src="obsluha.js"></script>
+</body>
+</html>
